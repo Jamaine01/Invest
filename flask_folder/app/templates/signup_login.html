@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block nav %}
+	<div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2 nav_signup"><h4>Already a User?&nbsp;</h4><a href="#"><h4>Sign In&nbsp;<span class="glyphicon glyphicon-user"></span></h4></a></div>
+     </div>
+{% endblock %}
+
+
+
+{% block content %}
+	<div class="row form">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 signin_form">
+			<form>
+
+			<h4>First Name</h4><br>
+			<input type="text" name="firstname" placeholder="First Name"><br>
+
+			<h4>Last Name</h4><br>
+			<input type="text" name="lastname" placeholder="Last Name"><br>
+
+			<h4>Emai'</h4><br>
+			<input type="text" name="email" placeholder="Ex: johndoe@host.com"><br>
+
+			<h4>Password</h4><br>
+			<input type="password" name="password"><br>
+
+			</form>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+{% endblock %}

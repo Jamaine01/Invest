@@ -1,0 +1,139 @@
+{% extends 'base.html' %}
+
+{% block nav %}
+	<div class="row nav_row">
+		<div class="container inner_head">
+			<div class="row inner_nav_row">
+				<div class="col-md-4 head_logo">Inve$t</div>
+		        <div class="col-md-2 col-md-offset-6 nav_signup"><a href="signup"><h4>Sign Up&nbsp;<span class="glyphicon glyphicon-user"></span></h4></a>
+		        </div>
+	        </div>
+        </div>
+     </div>
+{% endblock %}
+
+
+
+{% block content %}
+
+<div class="container-fluid hyn">
+	<div class="container inner_content">
+		<div class="row">
+			<div class="col-md-5">
+				<form name="_form" onsubmit="validateForm()" action="http://127.0.0.1:5000/login" method="POST">
+					<h3>First Name:</h3>
+					<input type="text" name="fname" placeholder="Enter First Name Here"></input>
+					<h3>Last Name:</h3>
+					<input type="text" name="lname" placeholder="Enter Last Name Here"></input>
+					<h3>Email:</h3>
+					<input type="text" name="email" placeholder="johndoe@host.com"></input>
+					<h3>Confirm Email</h3>
+					<input type="text" name="conemail" placeholder="johndoe@host.com"></input>
+					<h3>Password</h3>
+					<p>Minimum 8 characters</p>
+					<input type="password" name="pwd" placeholder=""></input>
+					<h3>Confirm Password</h3>
+					<input type="password" name="conpwd" placeholder=""></input><br><br><br><br>
+					<input type="submit" name="submit" value="Create Account"></input>
+				</form>
+			</div>
+			<div class="col-md-2">
+			
+			</div>
+			<div class="col-md-5">
+			
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+<!--<div class="container-fluid">
+	<div class="row land_logo">
+	    <h3>Sign Up!</h3>
+	    <p><h4>It's free!</h4></p>
+	</div>
+
+	<div class="row form">
+
+		<form name="_form" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+
+			<div class="container-fluid fname">
+				<div class="container inner_fname">
+					<div class="row row_fname">
+						<div class="col-md-12 text-center col_fname">
+							<h3>First Name:</h3>
+							<input type="text" name="fname" placeholder="Enter First Name Here"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid lname">
+				<div class="container inner_lname">
+					<div class="row row_lname">
+						<div class="col-md-12 text-center col_lname">
+							<h3>Last Name:</h3>
+							<input type="text" name="lname" placeholder="Enter Last Name Here"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid email">
+				<div class="container inner_email">
+					<div class="row row_fname">
+						<div class="col-md-12 text-center col_email">
+							<h3>Email:</h3>
+							<input type="text" name="email" placeholder="johndoe@host.com"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid conemail">
+				<div class="container inner_conemail">
+					<div class="row row_fname">
+						<div class="col-md-12 text-center col_conemail">
+							<h3>Confirm Email</h3>
+							<input type="text" name="conemail" placeholder="johndoe@host.com"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid pwd">
+				<div class="container inner_pwd">
+					<div class="row row_pwd">
+						<div class="col-md-12 text-center col_pwd">
+							<h3>Password</h3>
+							<p>Minimum 8 characters</p>
+							<input type="password" name="pwd" placeholder=""></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid conpwd">
+				<div class="container inner_conpwd">
+					<div class="row row_conpwd">
+						<div class="col-md-12 text-center col_conpwd">
+							<h3>Confirm Password</h3>
+							<input type="password" name="conpwd" placeholder=""></input>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid submit">
+				<div class="container inner_submit">
+					<div class="row row_submit">
+						<div class="col-md-12 text-center col_submit">
+							<input type="submit" name="submit" value="Create Account"></input>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>!-->

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block nav %}
+<ul class="row nav_list">
+      <li role="presentation" class="col-sm-3 navbar_profile"><a href="#"><h5>My Profile&nbsp;<span class="glyphicon glyphicon-user"></span></h5></a>
+        <ul class="row my_profile">
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Sponsors</a></li>
+          <li><a href="#">Bio</a></li>
+          <li><a href="#">Photo Gallery</a></li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="col-sm-3 navbar_connect"><a href="#"><h5>Connections&nbsp;<span class="glyphicon glyphicon-link"></span></h5></a>
+        <ul class="row my_connections">
+          <li><a href="#">Search</a></li>
+          <li><a href="#">My Connections</a></li>
+          <li><a href="#">Bio</a></li>
+        </ul>
+      </li>
+
+      <li role="presentation" class="col-sm-3 navbar_notify"><a href="#"><h5>Notifications&nbsp;<span class="glyphicon glyphicon-bell"></span></a></h5>
+      <ul class="my_notifications">
+        <li><a href="#">{{ num }} Notifications</a></li>
+      </ul>
+      </li>
+      <li role="presentation" class="col-sm-3 navbar_set"><a href="#"><h5>Settings&nbsp;<span class="glyphicon glyphicon-cog"></span></a></h5>
+        <ul class="my_settings">
+          <li><a href="#">Update Account</a></li>
+          <li><a href="#">Log Out</a></li>
+          <li><a href="#">Delete Account</a></li>
+        </ul>
+      </li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+
+<h3 id="welcome">Welcome, {{ fname }}!</h3>
+
+<div class="row">
+	<div class="col-md-8 feed">
+		<h4>Your Network Feed</h4>
+	</div>
+	<div class="col-md-4 side_nav">
+		<ul id="side_nav">
+			<li><a href="#">Stats</a></li>
+			<li><a href="#">Open Projects</a></li>
+			<li><a href="#">To Do</a></li>
+		</ul>
+	</div>
+</div>
+
+{% endblock %}

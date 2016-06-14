@@ -1,0 +1,284 @@
+html,body, {
+   height: 100%;
+   background-color: #d2d2d2;
+}
+
+#welcome {
+   font-family: 'Merriweather', serif;
+   color: #1f86c5;
+}
+
+.feed {
+   font-family: 'Merriweather', serif;
+   color: gray;
+}
+
+.nav_list {
+   list-style-type: none;
+   padding-bottom: -10px;
+}
+
+.head_logo {
+   font-family: 'Caveat Brush', cursive;
+   color: #1f86c5;
+   font-size: 40px;
+}
+
+.inner_nav_row {
+   margin-top: 20px;
+}
+
+.nav_signup {
+   color: #1f86c5;
+   font-family: 'Amaranth', sans-serif;
+}
+
+a:active {
+   color: gray;
+   text-decoration: none;
+}
+
+a:hover {
+   color: gray;
+   text-decoration: none;
+}
+
+a:link {
+   color: #1f86c5;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #1f86c5;
+   text-decoration: none;
+}
+
+.container {
+   height: 100%;
+}
+
+.my_profile, .my_connections, .my_notifications, .my_settings {
+   display: none;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   z-index: 1000;
+   position: absolute;
+}
+
+/*.my_connections {
+   display: none;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   z-index: 1000;
+   position: absolute;
+
+}*/
+
+.spacer2 {
+   height: 30px;
+}
+
+.land_logo {
+   text-align: center;
+}
+
+.land_logo h1 {
+   font-family: 'Caveat Brush', cursive;
+   color: #1f86c5;
+   font-size: 90px;
+}
+
+.land_logo h3 {
+   font-family: 'Caveat Brush', cursive;
+   color: #1f86c5;
+   font-size: 70px;
+}
+
+.land_logo h4 {
+   font-family: 'Caveat Brush', cursive;
+   color: gray;
+   font-size: 30px;
+}
+
+.intro {
+   background-color: #c5e7fd;
+   height: 450px;
+}
+
+.step_1 {
+   background-color: #81b9db;
+   height: 450px;
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+}
+.col_step_1 {
+   margin-top: 100px;
+}
+.col_step_1 h3 {
+   font-size: 70px;
+}
+.col_step_1 p {
+   font-size: 35px;
+}
+
+.step_2 {
+   background-color: #1f86c5;
+   height: 450px;
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+}
+.col_step_2 {
+   margin-top: 100px;
+}
+.col_step_2 h3 {
+   font-size: 70px;
+}
+.col_step_2 p {
+   font-size: 35px;
+}
+
+.step_3 {
+   background-color: #01609a;
+   height: 450px;
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+}
+.col_step_3 {
+   margin-top: 100px;
+}
+.col_step_3 h3 {
+   font-size: 70px;
+}
+.col_step_3 p {
+   font-size: 35px;
+}
+
+.col_intro {
+   font-family: 'Amaranth', sans-serif;
+   color: white;
+   margin-top: 80px;
+}
+.col_intro h2 {
+   font-weight: 700;
+   font-size: 60px;
+}
+.col_intro p {
+   font-weight: 400;
+   font-size: 40px;
+}
+
+#side_nav {
+   list-style-type: none;
+}
+
+.signin_form {
+   text-align: center;
+   font-family: 'Merriweather', serif;
+}
+
+.login_form {
+   text-align: center;
+   font-family: 'Merriweather', serif;
+}
+
+form h4 {
+   color: #1f86c5;
+}
+
+.header {
+   background-color: white;
+   height: 100px;
+   box-shadow: 0px 5px 5px #888888;
+   z-index: 1005;
+}
+
+.hyn {
+   background-color: #01609a;
+   height: 100%;
+   z-index: -1000;
+}
+
+.fname {
+   background-color: #cfd1d2;
+   height: 800px;
+}
+form h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 30px;
+   margin-top: 100px;
+}
+
+.lname {
+   background-color: #aeb1b2;
+   height: 450px;
+}
+.inner_lname h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 70px;
+   margin-top: 100px;
+}
+
+.email {
+   background-color: #929596;
+   height: 450px;
+}
+.inner_email h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 70px;
+   margin-top: 100px;
+}
+
+.conemail {
+   background-color: #787878;
+   height: 450px;
+}
+.inner_conemail h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 70px;
+   margin-top: 100px;
+}
+
+.pwd {
+   background-color: #5b5c5c;
+   height: 450px;
+}
+.inner_pwd h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 70px;
+   margin-top: 100px;
+}
+.inner_pwd p {
+   font-size: 40px;
+}
+
+.conpwd {
+   background-color: #414242;
+   height: 450px;
+}
+.inner_conpwd h3{
+   color: white;
+   font-family: 'Amaranth', sans-serif;
+   font-size: 70px;
+   margin-top: 100px;
+}
+
+.submit {
+   background-color: #2c2d2d;
+   height: 200px;
+}
+.inner_submit {
+   margin-top: 80px;
+}
+
+input {
+   color: #1f86c5;
+   height: 50px;
+   width: 500px;
+}
